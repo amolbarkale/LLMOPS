@@ -1,0 +1,21 @@
+LLM Evaluation
+
+Why it necessary ?
+1. to understand tht llm understands the context and genres clear and coherent text and provide releavent response
+2. Promte ethical and safe user
+3. Validate business needs
+4. Drives improvement
+5. Build trust
+
+Key components LLM evaluation:
+1. metrics : Quantitaive like BLEU, rouge that access acurancry and similarity
+2. Benchmarks : performance benchamrkls, standard datsset and taasks to compare model perfomance amgainst each otehr
+3. frameworks : libs (keras, phoenix, bedrock)
+4. Human in loop : huma jusdgement is required
+
+Text similarity and Quality metrics :
+1. BLEU score : How much of the generated text works sequecss are the same as the refeecne txt, hioghe = mor simlarity
+2. ROUGE score : How much of the improtant content from the reference text is includes in the generated text ?
+3. BERT score
+4. semantic similarity
+5. perplexity
