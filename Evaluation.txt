@@ -19,3 +19,15 @@ Text similarity and Quality metrics :
 3. BERT score
 4. semantic similarity
 5. perplexity
+
+Response Quality metrics:
+Fluency score - Does the text sound natuaral and grammetically correct?
+coherence score - How good the whole text flow is, that is first sentence then next sentence etc.
+Completeness score - Did the model fully answer or folloewed the instructions?
+relevance score - Is the answer releavent to the question?
+etc.
+
+Safety and Bias metrics:
+Toxicity score: harmful or offensive language
+Bias detection score: Does the text show unfair stereotypes
+Safety refusal score: Does the model say no when asked to do something harmful
